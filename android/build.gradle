@@ -61,7 +61,10 @@ dependencies {
    // api 'io.agora.rtc:full-sdk:4.3.2'
    // api 'io.agora.rtc:full-screen-sharing:4.3.2'
   }
-    implementation 'io.agora.rtc:voice-sdk:4.4.1'
+    implementation 'io.agora.rtc:full-rtc-basic:3.7.0.3'
+    implementation 'io.agora.rtc:full-ains:3.6.2'
+    implementation 'io.agora.rtc:full-jnd:3.7.0.3'
+    implementation 'io.agora.rtc:full-full-audio-format:3.6.2'
 }
 
 static boolean isDev(Project project) {
